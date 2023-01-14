@@ -1,6 +1,5 @@
 import Navbar from './Navbar';
-import { TypingText, TitleText } from './CustomTexts';
-import StartSteps from './StartSteps';
+import Stats from './Stats';
 import ExploreCard from './ExploreCard';
 import Hero from './Hero';
 import NewFeatures from './NewFeatures';
@@ -9,9 +8,7 @@ import Footer from './Footer';
 
 export {
   Navbar,
-  TitleText,
-  TypingText,
-  StartSteps,
+  Stats,
   NewFeatures,
   ExploreCard,
   InsightCard,
