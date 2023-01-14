@@ -1,9 +1,19 @@
 import React from "react";
-import { Footer, Navbar, Hero } from "../components";
-
+import {
+  Navbar,
+  Hero,
+  Stats,
+  Business,
+  Billing,
+  CardDeal,
+  Testimonials,
+  Clients,
+  CTA,
+  Footer,
+} from "../components";
 
 import styles from "../constants/style";
-import '../styles/globals.css'
+import "../styles/globals.css";
 
 const Homepage = () => {
   return (
