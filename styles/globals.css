@@ -138,3 +138,38 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 20px 4px 10px #f3eee7;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #01f6ff;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+
+.active {
+  transform: translateY(-100%);
+  background-color: var(--white);
+  padding-block: 20px;
+  box-shadow: var(--shadow-1);
+  animation: slideIn 0.5s ease forwards;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

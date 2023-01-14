@@ -3,6 +3,7 @@ import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
 import { useState, useEffect } from "react";
 import Image from 'next/image'
+import '../styles/globals.css'
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
