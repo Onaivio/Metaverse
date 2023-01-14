@@ -2,7 +2,7 @@ import React from "react";
 import { discount, robot } from "../assets";
 import styles from "../constants/style";
 import GetStarted from "./GetStarted";
-import Image from 'next/image'
+import Image from "next/image";
 
 const Hero = () => {
   return (
