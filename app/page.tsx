@@ -12,6 +12,7 @@ import {
 } from "../sections";
 
 import styles from "../constants/style";
+import '../styles/globals.css'
 
 const Homepage = () => {
   return (
