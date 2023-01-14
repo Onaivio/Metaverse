@@ -1,9 +1,7 @@
-import React from 'react'
+const NewFeatures = () => (
+  <div>
+    New Features
+  </div>
+);
 
-const Feedback = () => {
-  return (
-    <div>Feedback</div>
-  )
-}
-
-export default Feedback
+export default NewFeatures;

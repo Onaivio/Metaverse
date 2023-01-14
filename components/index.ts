@@ -1,17 +1,24 @@
 import Navbar from './Navbar';
 import Stats from './Stats';
-import ExploreCard from './ExploreCard';
 import Hero from './Hero';
-import NewFeatures from './NewFeatures';
-import InsightCard from './InsightCard';
+import Clients from './Clients';
 import Footer from './Footer';
+import Billing from './Billing';
+import CardDeal from './CardDeal';
+import Business from './Business';
+import CTA from './CTA';
+import Testimonials from "./Testimonials";
+
 
 export {
   Navbar,
+  Billing,
+  CardDeal,
+  Business,
+  Clients,
+  CTA,
   Stats,
-  NewFeatures,
-  ExploreCard,
-  InsightCard,
   Footer,
+  Testimonials,
   Hero,
 };
