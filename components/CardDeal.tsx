@@ -2,6 +2,7 @@ import React from "react";
 import { card } from "../assets";
 import styles, { layout } from "../constants/style";
 import Button from "./Button";
+import Image from "next/image";
 
 const CardDeal = () => {
   return (
@@ -15,12 +16,13 @@ const CardDeal = () => {
           Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
           aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
         </p>
-
+        <div className="">
         <Button styles={`mt-10`} />
+        </div>
       </div>
 
       <div className={layout.sectionImg}>
-        <img src={card} alt="billing" className="w-[100%] h-[100%]" />
+        <Image src={card} alt="billing" className="w-[100%] h-[100%]" />
       </div>
     </section>
   );
