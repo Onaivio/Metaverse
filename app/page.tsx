@@ -11,19 +11,22 @@ import {
   World,
 } from "../sections";
 
+import styles from "../constants/style";
+
 const Homepage = () => {
   return (
-    <div>
-      <Navbar />
-      <Hero />
-      <About />
-      <Explore />
-      <GetStarted />
-      <WhatsNew />
-      <World />
-      <Insights />
-      <Feedback />
-      <Footer />
+    <div className="bg-primary w-full overflow-hidden">
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Navbar />
+        </div>
+      </div>
+
+      <div className={`bg-primary ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Hero />
+        </div>
+      </div>
     </div>
   );
 };
