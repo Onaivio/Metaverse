@@ -28,7 +28,7 @@ const Navbar = () => {
         <Image
           src={toggle ? close : menu}
           alt="menu"
-          className="w-[24px] h-[24px] object-contain"
+          className="w-[24px] h-[24px] object-contain duration-1000 ease-in transition-opacity"
           onClick={() => setToggle((prev) => !prev)}
         />
 
