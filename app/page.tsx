@@ -19,12 +19,12 @@ const Homepage = () => {
   return (
     <div className="bg-primary w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
+        <div className={`${styles.boxWidth} fixed z-50 mt-16`}>
           <Navbar />
         </div>
       </div>
 
-      <div className={`bg-primary ${styles.flexStart}`}>
+      <div className={`bg-primary ${styles.flexStart} mt-16`}>
         <div className={`${styles.boxWidth}`}>
           <Hero />
         </div>
@@ -42,7 +42,7 @@ const Homepage = () => {
           <Footer/>
         </div>
       </div>
-      
+
     </div>
   );
 };

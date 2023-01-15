@@ -159,9 +159,9 @@
 
 .active {
   transform: translateY(-100%);
-  background-color: var(--white);
-  padding-block: 20px;
-  box-shadow: var(--shadow-1);
+  background-color: transparent;
+  backdrop-filter: blur(15px);
+  transition: 300ms ease-in-out;
   animation: slideIn 0.5s ease forwards;
 }
 
