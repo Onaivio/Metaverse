@@ -4,6 +4,7 @@ import styles, { layout } from "../constants/style";
 import Button from "./Button";
 import Image from "next/image";
 
+
 const FeatureCard = ({ icon, title, content, index }) => (
   <div
     className={`flex flex-row p-6 rounded-[20px] ${
